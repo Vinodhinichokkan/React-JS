@@ -1,14 +1,12 @@
 import React from 'react'
-
-
-import Navbar from './Navbar'
-import {BrowserRouter as Router,Route,Routes} from 'react-router-dom'
+import Message from './Message/Message'
 const App = () => {
-   return <React.Fragment>
-            <Router>
-                <Navbar/>
-            </Router>
-        </React.Fragment>
+  return (
+    <div>
+        <h2>App Component</h2>
+        <Message/>
+    </div>
+  )
 }
 
 export default App
